@@ -5,35 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact - Claudia A. Vera-Arias, Ph.D</title>
   <style>
-    /* Contenedor central con fondo degradado, sombra y bordes redondeados */
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .contact-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 60px auto;
+      max-width: 900px;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .contact-wrapper img {
+      width: 250px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
     .container {
       max-width: 600px;
-      margin: 80px auto;
       padding: 30px 40px;
       background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
       border-radius: 15px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
       color: #1b1b1b;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-align: center;
     }
 
-    /* Título principal */
     .container h1 {
       font-size: 3em;
       margin-bottom: 20px;
       color: #0b2340;
-      text-shadow: 1px 1px 2px rgba(255 255 255 / 0.6);
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
     }
 
-    /* Párrafos con buen tamaño y separación */
     .container p {
       font-size: 1.3em;
       margin: 15px 0;
       font-weight: 600;
     }
 
-    /* Estilo para enlaces */
     .container a {
       color: #002f6c;
       text-decoration: none;
@@ -47,11 +66,10 @@
       border-bottom: 2px solid #ffdd57;
     }
 
-    /* Ajustes para pantallas pequeñas */
-    @media (max-width: 480px) {
-      .container {
-        margin: 40px 20px;
-        padding: 20px 25px;
+    @media (max-width: 768px) {
+      .contact-wrapper {
+        flex-direction: column;
+        padding: 20px;
       }
 
       .container h1 {
@@ -61,15 +79,22 @@
       .container p {
         font-size: 1.1em;
       }
+
+      .contact-wrapper img {
+        width: 180px;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="contact-wrapper">
+    <img src="Caricatura_Claudia.jpg" alt="Caricatura de Claudia Vera Arias">
+    <div class="container">
       <h1>Contact</h1>
       <p>Email: <a href="mailto:claudia.vera.arias@gmail.com">claudia.vera.arias@gmail.com</a></p>
       <p>Phone: +1 (954) 505 0704</p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/claudia-a-vera-arias90/" target="_blank" rel="noopener noreferrer">linkedin.com/in/claudia-a-vera-arias90</a></p>
+    </div>
   </div>
 </body>
 </html>
