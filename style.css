@@ -17,10 +17,20 @@ body {
     header {
         text-align: center;
         background-color: #336699;
-        color: white;
-        padding: 20px;
+        color: #fff;
+        padding: 30px 20px;
         border-radius: 12px 12px 0 0;
     }
+
+header img {
+  width: 150px;        /* Default size */
+  max-width: 100%;     /* Never overflow container */
+  height: auto;        /* Keep aspect ratio */
+  display: block;
+  margin: 0 auto 15px; /* Center + bottom space */
+  border-radius: 50%;  /* Circular frame */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
 
     nav {
         display: flex;
