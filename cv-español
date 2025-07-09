@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Claudia A. Vera Arias, Ph.D - CV-español</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+
+    .wrapper {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2.2em;
+      color: #004080;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      color: #0059b3;
+      border-bottom: 2px solid #cce0ff;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    h3 {
+      color: #336699;
+    }
+
+    .contact {
+      font-size: 0.95em;
+      margin-bottom: 1.5em;
+      color: #555;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-bottom: 2em;
+    }
+
+    .position {
+      font-weight: bold;
+      color: #004d66;
+    }
+
+    .institution {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 0.5em;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .back-home {
+      display: inline-block;
+      margin: 20px 0;
+      color: #004080;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .back-home:hover {
+      text-decoration: underline;
+    }
+
+    .contact a::before {
+      content: '🔗 ';
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Back to Home Link (Top) -->
+    <p><a href="index.html" class="back-home">← Back to Home</a></p>
+
+    <h1>Claudia A. Vera Arias, Ph.D.</h1>
+    <div class="contact">
+      Austin, TX • (954) 505 0704<br>
+      <a href="mailto:claudia.vera.arias@gmail.com">claudia.vera.arias@gmail.com</a> •
+      <a href="https://linkedin.com/in/claudia-a-vera-arias90" target="_blank">claudia-a-vera-arias90</a>
+    </div>
+
+    <div class="section">
+      <h2>Educación</h2>
+      <p><strong>Universidad de Notre Dame</strong>, Notre Dame, IN<br>
+      Ph.D., Departamento de Ciencias, Mayo 2024<br>
+      Disertación doctoral: Malaria diagnosis with a focus on <em>hrp2/3</em> deletion<br>
+      Supervisor: Cristian Koepfli, Ph.D.</p>
+
+      <p><strong>Pontificia Universidad Católica del Ecuador (PUCE)</strong>, Quito, Ecuador<br>
+      Lic., Ciencias Biológicas, Diciembre 2015<br>
+      Tesis: Caracterización poblacional de <em>Plasmodium falciparum</em> en Ecuador<br>
+      Advisor: Fabián E. Sáenz, Ph.D.</p>
+    </div>
+
+    <div class="section">
+      <h2>Experiencia Laboral</h2>
+      <p class=“position">Investigador Independiente</p>
+      <ul>
+        <li>Lidero y contribuyo de manera independiente a proyectos de investigación en biología molecular, microbiología y enfermedades infecciosas, con un enfoque en diagnósticos, resistencia a los antimicrobianos y resolución de problemas basada en datos. Colaboro con socios académicos e internacionales, brindo asesoría científica y continúo publicando investigaciones revisadas por pares..</li>
+      </ul>
+      
+      <p class=“position">Investigador Postdoctoral</p>
+      <p class=“institution">Universidad de Notre Dame / Eck Institute for Global Health, IN (2024–2025)</p>
+      <ul>
+        <li>Detección y aislamiento de anticuerpos monoclonales contra HCMV de pacientes seropositivos utilizando citometría de flujo y PCR.</li>
+        <li>Desarrollo de terapias con anticuerpos monoclonales dirigidas contra HCMV para su uso en pacientes inmunocomprometidos.</li>
+        <li>Estandarización y optimización de técnicas de cultivo celular, PCR y Western blot para apoyar la investigación sobre HCMV y la producción de anticuerpos.</li>
+        <li>Inmunización de ratones como parte del desarrollo de una vacuna contra HCMV.</li>
+      </ul>
+
+      <p class=“position”>Asistente de Investigación de Posgrado</p>
+      <p class=“institution">Universidad de Notre Dame (2019–2024)</p>
+      <ul>
+        <li>Detección mediante herramientas moleculares, como la PCR digital (dPCR), de <em>Plasmodium falciparum</em> que poseen la deleción de los genes <em>hrp2</em> y/o <em>hrp3</em> en los continentes Americano y Africano.</li>
+        <li>Comparación de métodos moleculares para la detección de los genes <em>hrp2</em> y <em>hrp3</em>. Tres variaciones de PCR (PCR anidado, PCR cuantitativo y PCR digital) fueron comparados para determiner cuál de ellos es el mejor.</li>
+        <li>Estandarización de varios protocolos en distintas plataformas de PCR digital. Como resultado, desarrollé un protocolo que permite detectar la deleción de los genes <em>hrp2</em> y <em>hrp3</em> en menos de una hora. Este protocolo puede ser usado en el campo.</li>
+        <li>Estandarización y validación de la nueva plataforma de PCR digital LOAA (OPTOLANE) como parte del proceso de prueba del prototipo.</li>
+        <li>Validación del microscopio electrónico (Noul) en Etiopía.</li>
+        <li>Capacitación de investigadores internacionales y estudiantes en técnicas moleculares, tanto en el Instituto de Investigación Armauer Hansen (Addis Abeba, Etiopía) como en la Universidad de Notre Dame.</li>
+      </ul>
+
+      <p class=“position">Asistente de Investigación</p>
+      <p class="institution">PUCE / Centro de Investigation de Salud en América Latina (2015–2019)</p>
+      <ul>
+        <li>Caracterización molecular de las poblaciones de <em>Plasmodium falciparum</em> en Ecuador mediante el uso de marcadores moleculares neutrales, microsatélites, localizados en 6 cromosomas del parásito.</li>
+        <li>Coordinación y ejecución de estudios de cohorte en zonas endémicas de malaria en Ecuador. El objetivo fue recopilar información epidemiológica detallada y recolectar muestras de sangre para su posterior análisis, incluyendo la identificación de especies de <em>Plasmodium</em>, la caracterización molecular mediante microsatélites neutrales y la detección del gen hrp2 en muestras de <em>P. falciparum</em>.</li>
+        <li>Gestión del funcionamiento del laboratorio mediante la administración de presupuestos, asignación de recursos y mantenimiento de registros precisos. Supervisé y formé a personal y estudiantes en técnicas moleculares. Estuve a cargo del mantenimiento de equipos y la gestión de inventario. Además, contribuí a la gestión de proyectos y al apoyo en investigación mediante conocimientos técnicos y manejo de datos.</li>
+      </ul>
+
+      <p class="position">Asistente de Investigación de perorado</p>
+      <p class="institution">Pontificia Universidad Católica del Ecuador (2010–2015)</p>
+      <ul>
+        <li>Caracterización molecular de la población de <em>P. falciparum</em> en el noroeste de Ecuador utilizando microsatélites neutrales ubicados en 6 cromosomas del parásito. Los <em>P. falciparum</em> ecuatorianos que circularon en esta región fueron casi idénticos a los parásitos que circulaban en la costa del Pacífico de Perú en el año 2000 y a una muestra ancestral de <em>P. falciparum</em> recolectada en la costa ecuatoriana en 1990. Además, no se detectaron deleciones en los genes <em>hrp2/3</em>.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Experiencia Docente</h2>
+      <p><strong>Universidad de Notre Dame, IN, Agosto 2019 - May0 2024</strong></p>
+      <ul>
+        <li>Colaboré en la enseñanza de varios cursos de biología a nivel de pregrado, entre ellos “Research Experience in Biology”, “Biology II: Molecules to Ecosystems”, “Intro Biology M2E” y “Biological Investigation Laboratory”.</li>
+        <li>Guié a los estudiantes en proyectos de investigación sobre temas como resistencia a antibióticos, transcriptómica e interacciones proteína-proteína en<em>M. Tuberculosis</em>.</li>
+        <li>Enseñé y supervisé actividades de laboratorio en biología molecular, microbiología, PCR, electroforesis, transformación bacteriana, microscopía y trabajo de campo.</li>
+        <li>Contribuí al desarrollo curricular, incluyendo la creación de una base de datos de preguntas para exámenes de los cursos fundamentales de biología.</li>
+        <li>Los cursos impartidos incluyeron entre 22 y 74 estudiantes por semestre, obteniendo de manera constante altas calificaciones en las evaluaciones estudiantiles (entre 4.5 y 4.9 sobre 5.0).</li>
+        <li>Enfaticé el desarrollo de habilidades en diseño experimental, análisis de datos y comunicación científica.</li>
+      </ul>
+      <p><strong>Pontificia Universidad Católica del Ecuador, Quito, Enero 2017 - Mayo 2019</strong></p>
+      <ul>
+        <li>Diseñé e impartí el contenido del curso para ofrecer a los estudiantes una comprensión integral de los microorganismos, incluyendo su diversidad, clasificación, estructura y fisiología.</li>
+        <li>Enfatizé la importancia ecológica, industrial, médica y ambiental de los microbios mediante clases teóricas y sesiones prácticas de laboratorio.</li>
+        <li>Guié a los estudiantes en el aprendizaje de técnicas microbiológicas fundamentales como el aislamiento, cultivo y análisis de microorganismos.</li>
+        <li>Recibí excelentes evaluaciones por parte de los estudiantes, reflejando una enseñanza efectiva y un alto nivel de compromiso.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Reconocimientos & Premios</h2>
+      <ul>
+        <li>Copresidente en la sesión “Challenges in Malaria Diagnosis” durante la reunión ASTMH 2021 (2021)</li>
+        <li>Beca Fogarty/NIH, Escuela de Salud Pública, Facultad de Medicina, Universidad de Chile, Santiago – Chile (2018) (2018)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Liderazgo & Afiliaciones</h2>
+      <ul>
+        <li>STEMentorship (2022–Presente)</li>
+        <li>Comité Nacional de Investigación en Enfermedades Infecciosas (CONIEIT) (2016–Presente)</li>
+        <li>Comité científico para el desarrollo del protocolo de diagnóstico de malaria en Ecuador, Miembro (2016–2018)</li>
+      </ul>
+    </div>
+
+
+    <div class="section">
+      <h2>Referencias</h2>
+      <p>Disponibles bajo pedido</p>
+    </div>
+
+    <!-- Back to Home Link (Bottom) -->
+    <p style="text-align: center;"><a href="index.html" class="back-home">← Back to Home</a></p>
+
+  </div>
+</body>
+</html>
